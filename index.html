@@ -27,11 +27,19 @@
       h1 {
         font-size: 6dvw;
         margin-bottom: 10px;
+        animation: fadeIn 2s ease-in-out;
+
       }
 
       p {
         font-size: 1em;
+        animation: fadeIn 3s ease-in-out;
+
       }
+       @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
 
       .hint {
         font-size: 0.9em;
